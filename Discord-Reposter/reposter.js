@@ -6,7 +6,7 @@ const fs = require("fs");
 const Discord = require("discord.js");
 const client = new Discord.Client();
 
-client.login("OTU5NjQ0NDc1ODU1MDkzNzcx.Yke4kA.0TkhNHENVKjralNkPAP6QLojWg4").catch(console.error);
+client.login("OTU5NjQ0NDc1ODU1MDkzNzcx.Yke4kA.jSyswewvcGlGhIhK5jHngrUj7HA").catch(console.error);
 
 client.on("ready", function() {
 	const serverCount = client.guilds.cache.size;
